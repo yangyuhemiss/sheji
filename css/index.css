@@ -1,0 +1,126 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.sheji .one{
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    margin: auto auto;
+}
+.title{
+    float: left;
+    margin-top: 100px;
+    padding-left: 150px;
+    animation: fadeInLeft 2s ease 1;
+    color: hsl(0, 0%, 100%);
+    font-size: 60px;
+}
+.title01{
+    margin-top: 80px;
+    color: red;
+}
+.mod-content{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: 1000px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    animation: bounceInRight 2s ease 1 2s;
+}
+.mod-content .money{
+    position: absolute;
+    top: 380px;
+    left: 20px;
+    z-index: 90;
+    width: 240px;
+    height: 100px;
+    animation: zoomIn 2s ease 1 4s;
+}
+.mod-content .money img{
+    width: 100%;
+}
+.mod-content .right{
+    position: absolute;
+    top: 0;
+    left: 650px;
+    width: 350px;
+    height: 500px;
+    background-color: #665aa7;
+    border-radius: 0 18px 18px 0;
+}
+.mod-content .right .people{
+    z-index: 90;
+    position: absolute;
+    top: 100px;
+    left: -100px;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(224, 46, 146);
+}
+.mod-content .right .people .style{
+    position: absolute;
+    left: 120px;
+    top: 0;
+    width: 35px;
+    height: 300px;
+    background-color:purple;
+}
+.eyes{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.mod-content .right .people .eyes .left-eye,.mod-content .right .people .eyes .right-eye{
+    float: left;
+    z-index: 99;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+}
+.mod-content .right .people .eyes .right-eye{
+    margin-left: 60px;
+}
+.glass{
+    position: absolute;
+    left: -20px;
+}
+.glass img{
+    width: 130px;
+}
+.hand{
+    z-index: 99;
+    position: absolute;
+    left: -80px;
+    top: 150px;
+}
+.hand02{
+    position: absolute;
+    left: 170px;
+    top: 30px;
+}
+.mod-content a{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 100px;
+    top: 50%;
+    margin-top: -60px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: blueviolet solid 10px;
+    animation: flipInX 2s ease 1 6s;
+}
+.mod-content a p{
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 32px;
+    font-weight: bolder;
+}

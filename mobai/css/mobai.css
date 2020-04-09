@@ -1,0 +1,90 @@
+/* 版心 */
+.md-container {
+    width: 1080px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+/* 轮播图 */
+.swiper-container img {
+    display: block;
+    width: 100%;
+}
+.header-warp{
+    position: relative;
+}
+/* logo小块 */
+.header-logo {
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -540px;
+    width: 1080px;
+    height: 80px;
+    background-color: orange;
+}
+/* 文字小块 */
+.header-txt {
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -540px;
+    margin-top: -73px;
+    width: 1080px;
+    height: 146px;
+    background-color: pink;
+}
+/* 新闻小块 */
+.header-news {
+    z-index: 99;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -540px;
+    margin-top: -21px;
+    width: 1080px;
+    height: 42px;
+    background-color: yellow;
+}
+/* 图片广告 */
+.hero-item{
+    float: left;
+    width: 25%;
+    height: 400px;
+    background-color: thistle;
+    border-left: 2px solid #ffffff;
+    box-sizing: border-box;
+}
+.heros{
+    border-top: solid 2px #ffffff;
+    margin-left: -2px;
+}
+/* 图表链接 */
+.meta-link{
+    float: left;
+    width: 33.33%;
+    height: 140px;
+}
+.meta-links{
+    width: 100%;
+}
+
+/* 适配PaiD  版心padding：0 20px*/
+/* 用PC的页面去适配PAD和手机端   PAD和手机端 版本  100%
+三套css样式 => 只是写在一个样式文件中而已 */
+@media(max-width:1080px){
+    .md-container,.header-logo,.header-txt,.header-news{
+        width: 100%;box-sizing: border-box;
+    }
+    .header-logo,.header-txt,.header-news{margin-left: -50%;}
+    .hero-item{margin-bottom: 2px;width: 50%;}
+}
+@media(max-width:640px){
+    .hero-item{width: 100%;}
+    .meta-link{width: 100%;}
+}
+/* 作业
+摩拜单车补充完整
+场景动画  - 发挥你们自己的想象力   => amimate.min.css  动画库
+ */
